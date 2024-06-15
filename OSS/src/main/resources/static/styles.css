@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header, .card-footer {
+    background-color: #ff7e5f;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    border-bottom: none;
+}
+
+.card-footer {
+    border-radius: 0 0 15px 15px;
+}
+
+.btn-primary {
+    background-color: #feb47b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff7e5f;
+}
